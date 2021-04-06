@@ -1,0 +1,19 @@
+﻿@model IEnumerable<Teams>
+@*we don't need to reference the model more specifically because it is set up in the file structure
+    the data coming from the view component will be a list of strings, so that's all we need to say*@
+
+@*<a asp-action="Index" asp-controller="Home" asp-route-teamid="">Home</a>*@
+@*<br />*@
+
+@foreach (var x in Model)
+{
+    <a asp-action="Index" asp-controller="Home"
+       asp-route-teamid="@x.TeamId"
+       asp-route-team="@x.TeamName">
+        @x.TeamName
+
+    </a>
+    <br />
+    <br />
+
+}

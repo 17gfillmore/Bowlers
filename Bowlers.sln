@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.809.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bowlers", "Bowlers\Bowlers.csproj", "{6682C52A-10B1-4FAF-A4F9-63D7F286202D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6682C52A-10B1-4FAF-A4F9-63D7F286202D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6682C52A-10B1-4FAF-A4F9-63D7F286202D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6682C52A-10B1-4FAF-A4F9-63D7F286202D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6682C52A-10B1-4FAF-A4F9-63D7F286202D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D0C00F1-1F5A-48E1-8678-27BC811E6B2F}
+	EndGlobalSection
+EndGlobal
