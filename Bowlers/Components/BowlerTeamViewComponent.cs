@@ -18,6 +18,7 @@ namespace Bowlers.Components
         // returns default view corresponding to this component
         public IViewComponentResult Invoke()
         {
+            ViewBag.SelectedTeam = RouteData?.Values["team"];
             return View(context.Teams
                 //.Select(x => x.TeamName)
                 .Distinct()
